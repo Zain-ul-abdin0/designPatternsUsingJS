@@ -23,5 +23,5 @@ let single =  Singleton.getinstance();
 let mingle = Singleton.getinstance();
 single.set('zain',123);
 single.set('ahmad',32)
-single.get()
+single.get();
 mingle.get();
